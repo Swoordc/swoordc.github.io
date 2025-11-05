@@ -1,0 +1,46 @@
+baseURL = "/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "我的博客"
+theme = "blowfish"
+
+# 开启中文支持
+enableEmoji = true
+
+# 站点参数
+[params]
+  defaultTheme = "auto"   # 自动切换深浅色
+  colorScheme = "blowfish"
+  homepageLayout = "profile"
+  showReadingTime = true
+  showPostSummary = true
+
+# 网站菜单
+[menu]
+
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "关于我"
+    url = "/about/"
+    weight = 4
+
+# 语言设置
+[languages]
+  [languages.zh-cn]
+    languageName = "中文"
+    weight = 1
+
