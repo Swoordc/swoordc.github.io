@@ -4,18 +4,25 @@ defaultContentLanguage = "zh-cn"
 title = "我的博客"
 theme = "blowfish"
 
-# 开启中文支持
-enableEmoji = true
-
-# 站点参数
+# 网站参数
 [params]
-  defaultTheme = "auto"   # 自动切换深浅色
+  # 主页风格：卡片布局
+  homepageLayout = "cards"
+  # 自动切换深浅色
+  defaultTheme = "auto"
   colorScheme = "blowfish"
-  homepageLayout = "profile"
-  showReadingTime = true
-  showPostSummary = true
+  showReadingTime = true         # 显示阅读时间
+  showPostSummary = true         # 首页显示文章摘要
+  enableEmoji = true
+  # 个人信息
+  avatar = "images/avatar.jpg"   # 头像路径，可替换
+  tagline = "记录学习与成长的点滴"  # 一句话介绍
+  github = "https://github.com/Swoordc"   # 可选：GitHub 链接
+  email = "you@example.com"              # 可选：邮箱
+  telegram = ""                           # 可选：Telegram
+  x = ""                                  # 可选：X/Twitter
 
-# 网站菜单
+# 菜单配置
 [menu]
 
   [[menu.main]]
@@ -43,4 +50,3 @@ enableEmoji = true
   [languages.zh-cn]
     languageName = "中文"
     weight = 1
-
